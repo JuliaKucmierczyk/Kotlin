@@ -1,10 +1,12 @@
 package pl.wsei.pam.lab02
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import pl.wsei.pam.lab01.R
+import pl.wsei.pam.lab03.Lab03Activity
 
 class Lab02Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,5 +39,10 @@ class Lab02Activity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
+
+        val intent = Intent(this, Lab03Activity::class.java)
+        intent.putExtra("rows",rows)
+        intent.putExtra("columns",columns)
+        startActivity(intent)
     }
 }

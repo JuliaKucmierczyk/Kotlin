@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -18,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Users/julyk/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/222.4459.24.2221.10121639/plugins/android/lib/android.jar!/images/material/icons/materialicons/rocket_launch/baseline_rocket_launch_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/sports_mma/baseline_sports_mma_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="bf95f8" />
-                            <entry key="outputName" value="baseline_rocket_launch_24" />
+                            <entry key="color" value="cb0000" />
+                            <entry key="outputName" value="baseline_sports_mma_24" />
                             <entry key="sourceFile" value="C:\Users\julyk\StudioProjects\wsei-pam-lab01" />
                           </map>
                         </option>
